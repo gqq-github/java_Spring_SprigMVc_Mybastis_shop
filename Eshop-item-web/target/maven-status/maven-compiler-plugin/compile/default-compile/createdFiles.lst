@@ -1,0 +1,6 @@
+cn\gq\item\details\controller\HtmlgemController.class
+cn\gq\item\details\controller\ItemController.class
+cn\gq\item\details\controller\listener\HtmlGenListener.class
+cn\gq\item\details\controller\pojo\Item.class
+cn\gq\item\details\controller\test\Freemaker.class
+cn\gq\item\details\controller\test\Student.class

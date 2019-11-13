@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Eshop_parent</artifactId>
+        <groupId>cn.gq.Eshop</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../Eshop_parent/pom.xml</relativePath>
+    </parent>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Eshop_search_interface</module>
+        <module>Eshop_search_service</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.gq.Eshop</groupId>
+    <artifactId>eshop_search</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>cn.gq.Eshop</groupId>
+            <artifactId>Eshop_common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

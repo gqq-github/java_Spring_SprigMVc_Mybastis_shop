@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../Eeshop_car_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop-item-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_car" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_car/Eshop_car_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_car/Eshop_car_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_content" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_content_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_content_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_manager_dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_manager_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_manager_pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_manager_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_manager_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_order/Eshop_order_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_order/Eshop_order_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_order_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_protal_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_search/Eshop_search_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_search/Eshop_search_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_search_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_sso/Eshop_sso_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_sso/eshop_sso_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Eshop_sso_web" charset="UTF-8" />
+  </component>
+</project>

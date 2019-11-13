@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eshop_serch_interface" />
+        <module name="Eshop_content_interface" />
+        <module name="Eshop-item-web" />
+        <module name="eshop_car_interface" />
+        <module name="Eshop_manager_interface" />
+        <module name="Eshop_car_service" />
+        <module name="Eshop_sso_interface" />
+        <module name="Eshop_manager_dao" />
+        <module name="Eshop_common" />
+        <module name="eshop_order_web" />
+        <module name="Eshop_search_service" />
+        <module name="Eshop_order_interface" />
+        <module name="eshop-item-web" />
+        <module name="eshop_search_service" />
+        <module name="Eshop_order_service" />
+        <module name="eshop_sso_service" />
+        <module name="eshop_search_web" />
+        <module name="Eshop_protal_web" />
+        <module name="eshop_content_service" />
+        <module name="Eshop_manager_service" />
+        <module name="Eshop_sso_web" />
+        <module name="eshop_content_interface" />
+        <module name="Eshop_order_web" />
+        <module name="eshop_sso_web" />
+        <module name="Eshop_car_interface" />
+        <module name="eshop_car_service" />
+        <module name="eshop_sso_interface" />
+        <module name="Eshop_manager_pojo" />
+        <module name="eshop_order_interface" />
+        <module name="eshop_order_service" />
+        <module name="Eshop_search_interface" />
+        <module name="Eeshop_car_web" />
+        <module name="eshop_protal_web" />
+        <module name="eshop_car_web" />
+        <module name="Eshop_content_service" />
+        <module name="Eshop_manager_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eshop_cat_interface" target="1.7" />
+      <module name="Eshop_search_web" target="1.7" />
+      <module name="Eshop_sso_service" target="1.7" />
+      <module name="fastdfs_client" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

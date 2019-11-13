@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FUSUsageTrigger">
+    <session id="-711959166">
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../Eeshop_car_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop-item-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_car/Eshop_car_service" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_content_service" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_manager_service" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_order_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_protal_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_search/Eshop_search_service" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_search_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../Eshop_sso_web" />
+    <file type="web" url="file://F:/宜立方商城r/Eshop_manager_web" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Eshop_protal_web/pom.xml" />
+        <option value="$PROJECT_DIR$/../Eshop_manager/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="E:/BaiduNetdiskDownload/6第六阶段 项目实战二（14天）/宜立方商城(14天）/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/pagehelper-fix/pagehelper">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

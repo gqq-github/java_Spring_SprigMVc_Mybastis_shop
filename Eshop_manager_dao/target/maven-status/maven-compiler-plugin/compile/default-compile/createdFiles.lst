@@ -1,0 +1,11 @@
+cn\gq\eshop\mapper\TbOrderItemMapper.class
+cn\gq\eshop\mapper\TbItemParamMapper.class
+cn\gq\eshop\mapper\TbItemCatMapper.class
+cn\gq\eshop\mapper\TbItemParamItemMapper.class
+cn\gq\eshop\mapper\TbOrderMapper.class
+cn\gq\eshop\mapper\TbItemDescMapper.class
+cn\gq\eshop\mapper\TbUserMapper.class
+cn\gq\eshop\mapper\TbContentCategoryMapper.class
+cn\gq\eshop\mapper\TbOrderShippingMapper.class
+cn\gq\eshop\mapper\TbContentMapper.class
+cn\gq\eshop\mapper\TbItemMapper.class

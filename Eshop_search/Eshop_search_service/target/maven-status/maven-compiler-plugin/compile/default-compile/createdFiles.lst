@@ -1,0 +1,3 @@
+cn\gq\eshop\search\mapper\ISearchItem.class
+cn\gq\eshop\search\service\impl\SearchServiceImpl.class
+cn\gq\eshop\search\service\impl\SearchItemServiceImpl.class

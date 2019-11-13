@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	    http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	<context:component-scan base-package="cn.gq.eshop.search.controller" />
+	<!--扫面页面广告分类的ID-->
+	<!--该节点只能配置一个-->
+	<context:property-placeholder location="classpath:conf/resouces.properties"></context:property-placeholder>
+	<mvc:annotation-driven />
+	<!--配置图片解析器-->
+	<!-- 定义文件上传解析器 -->
+	<!--<bean id="multipartResolver"-->
+		  <!--class="org.springframework.web.multipart.commons.CommonsMultipartResolver">-->
+		<!--&lt;!&ndash; 设定默认编码 &ndash;&gt;-->
+		<!--<property name="defaultEncoding" value="UTF-8"></property>-->
+		<!--&lt;!&ndash; 设定文件上传的最大值5MB，5*1024*1024 &ndash;&gt;-->
+		<!--<property name="maxUploadSize" value="5242880"></property>-->
+	<!--</bean>-->
+	<!--定义全局的异常处理-->
+	<bean class="cn.gq.eshop.search.controller.exception.GlobalExceptionReslover"></bean>
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<!-- 引用dubbo服务 -->
+	<dubbo:application name="Eshop-search-web"/>
+	<dubbo:registry protocol="zookeeper" address="192.168.25.129:2181" timeout="50000"/>
+	<dubbo:reference interface="cn.gq.eshop.search.service.ISearchItemService" id="searchItemServiceImpl" timeout="50000"/>
+	<dubbo:reference interface="cn.gq.eshop.search.service.ISearchService" id="searchServiceImpl" timeout="50000"/>
+</beans>
